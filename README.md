@@ -1,6 +1,6 @@
 # Predicting-Credit-Card-Fraud
 
-![Example Image](images/credit_card_fishing.png)
+![Example Image](Predicting_Transaction_Fraud/images/credit_card_fishing.png)
 
 ## Objectives
 
