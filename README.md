@@ -77,7 +77,7 @@ pipeline = ImbPipeline([
     ('classifier', RandomForestClassifier(random_state=42))
 ])
 ```
-![Example Image](images/pipeline.png)
+![Example Image](Predicting_Transaction_Fraud/images/pipeline.png)
 
 ## Model Development
 
@@ -125,17 +125,17 @@ To further optimize our model's performance, specifically the Random Forest clas
 
 - **Logistic Regression** : Served as our baseline model. While offering decent accuracy, it struggled with recall, indicating a potential issue with identifying the minority class (fraudulent transactions).
 
-![Example Image](images/reportlr.png)
+![Example Image](Predicting_Transaction_Fraud/images/reportlr.png)
 
 - **Random Forest with Tuned Hyperparameters**: The application of GridSearchCV to fine-tune the Random Forest model's hyperparameters further improved performance. This model demonstrated the highest F1 score, recall, and precision, underlining the value of hyperparameter tuning in optimizing model outcomes.
 
-![Example Image](images/reportrf.png)
+![Example Image](Predicting_Transaction_Fraud/images/reportrf.png)
 
 ### Random Forest Model on Test Data
 
 - The ultimate test of a model's utility is its performance on new, unseen data. The tuned Random Forest model not only showed promising results during training but also demonstrated excellent generalization capabilities on an independent test dataset. With high precision and recall for detecting fraudulent transactions in the test data, the model confirmed its practical applicability and effectiveness in a real-world scenario.
 
-![Example Image](images/reporttest.png)
+![Example Image](Predicting_Transaction_Fraud/images/reporttest.png)
 
 ### Conclusions and Discussion
 
